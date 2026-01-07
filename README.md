@@ -1,115 +1,127 @@
 <h1 align="center">Hi, I'm Negin 👋</h1>
-<h3 align="center">Machine Learning & MLOps Engineer | AI Systems Builder</h3>
+<h3 align="center">Applied AI Engineer | Machine Learning & MLOps</h3>
 
 <p align="center">
-🔬 Applied Artificial Intelligence Student (BSc)  - Berlin, Germany
-🚀 End-to-end ML pipelines • Real-time systems • MLOps • Cloud  
-📍 Based in Europe (Currently based in Turin, Italy)
+🔬 BSc Applied Artificial Intelligence <br>
+🚀 End-to-end ML systems • NLP • Computer Vision • MLOps <br>
+📍 Europe (Currently Turin, Italy)
 </p>
 
 ---
 
 ## 🔥 About Me
-I’m an AI Engineer with a hybrid background in **Machine Learning, MLOps, Computer Vision, Cloud Infrastructure, and Software Engineering**.  
-I build **real systems** — not just models — with APIs, Docker, deployment, tracking, data processing, and scalable architecture.
+I’m an **Applied AI Engineer** with an engineering background, experienced in building **reliable, production-oriented machine learning systems** across the full lifecycle — from data preprocessing and modeling to deployment and monitoring.
 
-What I’m passionate about:
-- Building **production-grade ML systems**
-- Real-time anomaly detection & monitoring
-- NLP + classical ML pipelines
-- Computer vision using YOLOv8 & DeepSORT
-- MLOps practices (Docker, Terraform, AWS, pipelines)
-- Clean, modular, well-tested Python code
+I focus on **real-world AI systems**, not just experimental notebooks.
+
+**What I enjoy building:**
+- Production-ready ML pipelines & REST APIs  
+- Real-time anomaly detection & monitoring systems  
+- NLP pipelines with strong generalization  
+- Computer vision systems (YOLOv8 + tracking)  
+- MLOps & cloud infrastructure (Docker, Terraform, AWS)  
+- Clean, modular, testable Python code  
 
 ---
 
 ## 🧠 Tech Stack
 
-### **Languages & Core**
-`Python` • `C++` • `JavaScript` • `SQL`
+**Languages**  
+Python • C++ • SQL • JavaScript
 
-### **Machine Learning**
-`scikit-learn` • `NumPy` • `Pandas` • `TF-IDF`  
-`GMM` • `KMeans` • `Isolation Forest` • `UMAP`
+**Machine Learning & NLP**  
+scikit-learn • pandas • NumPy • TF-IDF  
+Isolation Forest • SVM • Naive Bayes  
+KMeans • GMM • UMAP
 
-### **Computer Vision**
-`YOLOv8` • `DeepSORT` • `OpenCV`
+**Computer Vision**  
+YOLOv8 • DeepSORT • OpenCV
 
-### **MLOps / Cloud / DevOps**
-`Docker` • `Docker Compose` • `AWS (S3, CloudFront, IAM)` • `Terraform`  
-`REST APIs` • `Flask` • `FastAPI-ready` • `Linux`
+**MLOps & Cloud**  
+Docker • Docker Compose  
+FastAPI • Flask  
+AWS (S3, CloudFront, IAM) • Terraform  
+Linux • GitHub Actions (CI basics)
 
-### **Software Engineering**
-`Python OOP` • `Pytest` • `CLI Apps` • `SQLite`  
-`Git` • `GitHub` • `Unit Testing`
-
----
-
-## ⭐ Highlight Projects
-
-### 🚨 **IoT Anomaly Detection System** (Isolation Forest + Docker + API)
-- Real-time ML system with streaming, monitoring & REST API  
-- Dockerized service with `/predict`, `/history`, `/metrics`, `/health`  
-- Threshold engineering + sensor simulation  
-🔗 Repo: https://github.com/NeginHz/anomaly_detection_project
+**Software Engineering**  
+Python OOP • Pytest • SQLite • CLI Apps
 
 ---
 
-### ✉️ **Spam Detection via NLP** (Small vs Large Dataset Study)
-- Complete NLP pipeline with strict data leakage prevention  
-- TF-IDF, lemmatization, domain adaptation, model comparison (SVM/NB)  
-- Achieved **F1 = 0.96**, strong generalization to unseen datasets  
-🔗 Repo: https://github.com/NeginHz/spam-classification-small-vs-large
+## ⭐ Featured Projects (Pinned)
+
+### 🚨 IoT Anomaly Detection System
+Production-style anomaly detection system for streaming sensor data.  
+- Isolation Forest with quantile-based thresholding  
+- REST API (`/predict`, `/metrics`, `/history`, `/health`)  
+- Fully Dockerized with real-time simulator & visualization  
+
+🔗 https://github.com/NeginHz/anomaly_detection_project  
 
 ---
 
-### 🚗 **Vehicle Detection, Tracking & Speed Estimation** (YOLOv8 + DeepSORT)
-- Real-time multi-object tracking with calibrated speed estimation  
-- Stable CV pipeline with improved ID consistency  
-🔗 Repo: https://github.com/NeginHz/Vehicle-Detection-Tracking-and-Speed-Estimation
-📹 Demo: https://www.youtube.com/watch?v=QpQxzGtMqsk
+### ✉️ Spam Detection via Text Classification
+Comparative NLP study on **small vs large dataset training** and generalization.  
+- Strict leakage prevention & clean preprocessing  
+- TF-IDF + SVM / Naive Bayes  
+- Demonstrated strong generalization (F1-score up to 0.96)  
+
+🔗 https://github.com/NeginHz/spam-classification-small-vs-large  
 
 ---
 
-### 🧠 **Mental Health Insights in Tech** (UMAP + GMM Clustering)
-- Full unsupervised workflow: preprocessing → reduction → clustering  
-- Silhouette/NLL evaluation + HR analytics  
-🔗 Repo: https://github.com/NeginHz/DLBDSMLUSL01
+### 🚗 Real-Time Vehicle Detection & Tracking
+Computer vision pipeline for vehicle detection, tracking, and speed estimation.  
+- YOLOv8 detection + DeepSORT tracking  
+- Pixel-to-meter calibration for speed estimation  
+- Improved ID consistency through parameter tuning  
+
+🔗 https://github.com/NeginHz/Vehicle-Detection-Tracking-and-Speed-Estimation  
 
 ---
 
-### ✔️ **Habit Tracking Application** (Python OOP + SQLite + Pytest)
-- Modular architecture (habit/db/analytics/cli)  
-- CLI UX with Questionary + Tabulate  
-- ISO-accurate streak logic + full unit test suite  
-🔗 Repo: https://github.com/NeginHz/oofpp_habits_project
+## 📚 Additional Projects & Academic Work
+
+### 🧠 Mental Health Insights in Tech (Unsupervised Learning)
+- Clustering analysis on 1,433 tech professionals  
+- Feature engineering, scaling, UMAP reduction  
+- GMM clustering (Silhouette score: 0.84)  
+- Actionable insights for HR analytics  
+
+🔗 https://github.com/NeginHz/DLBDSMLUSL01  
 
 ---
 
-### ☁ **AWS Static Website Deployment** (Terraform + CloudFront + S3)
-- Infrastructure as Code with Terraform  
-- OAI-secured S3 bucket + CDN + reproducible deployments  
-🔗 Repo: https://github.com/NeginHz/aws-static-website
+### 🛒 Customer Segmentation (E-commerce Data)
+- RFM feature engineering from transactional data  
+- KMeans vs GMM comparison  
+- Business-oriented insights for retention & marketing  
+
+🔗 https://github.com/NeginHz/online-retail-customer-segmentation  
 
 ---
 
-## 🏅 Certifications (Selected)
-- NLP with Python — LinkedIn  
-- Supervised Learning — LinkedIn  
-- Artificial Intelligence — Accenture  
-- Cloud Computing Core Concepts — LinkedIn/NASBA  
-- SQL — Codecademy  
-- Python Essential Training — LinkedIn  
-- Agile Foundations — PMI  
-- Full Web Development Bootcamp — Udemy  
-- Italian A1 — Speexx  
+### ☁ ML Infrastructure Deployment (AWS + Terraform)
+- Infrastructure-as-Code using Terraform  
+- Secure S3 (private) + CloudFront CDN + OAI  
+- Reproducible cloud deployment  
+
+🔗 https://github.com/NeginHz/aws-static-website  
+
+---
+
+### ✔ Habit Tracker Application
+- Modular Python OOP architecture  
+- SQLite database + analytics (streaks)  
+- Full pytest test suite  
+
+🔗 https://github.com/NeginHz/oofpp_habits_project  
 
 ---
 
 ## 📫 Contact
-📧 Email: **negiin.hz@gmail.com**  
-🔗 LinkedIn: **https://www.linkedin.com/in/neginhz**  
-🔗 GitHub: **https://github.com/NeginHz**
+📧 Email: negiin.hz@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/neginhz  
+🔗 GitHub: https://github.com/NeginHz  
 
-<p align="center">✨ Always open to collaborations, ML/MLOps roles, and cool AI projects ✨</p>
-
+<p align="center">✨ Open to early-career AI / Machine Learning engineering roles in Europe ✨</p>
