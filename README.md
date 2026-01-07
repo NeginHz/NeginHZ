@@ -14,14 +14,6 @@ I’m an **Applied AI Engineer** with an engineering background, experienced in 
 
 I focus on **real-world AI systems**, not just experimental notebooks.
 
-**What I enjoy building:**
-- Production-ready ML pipelines & REST APIs  
-- Real-time anomaly detection & monitoring systems  
-- NLP pipelines with strong generalization  
-- Computer vision systems (YOLOv8 + tracking)  
-- MLOps & cloud infrastructure (Docker, Terraform, AWS)  
-- Clean, modular, testable Python code  
-
 ---
 
 ## 🧠 Tech Stack
@@ -38,82 +30,92 @@ KMeans • GMM • UMAP
 YOLOv8 • DeepSORT • OpenCV
 
 **MLOps & Cloud**  
-Docker • Docker Compose  
-FastAPI • Flask  
-AWS (S3, CloudFront, IAM) • Terraform  
-Linux • GitHub Actions (CI basics)
+Docker • Docker Compose • FastAPI • Flask  
+AWS (S3, CloudFront, IAM) • Terraform • Linux
 
 **Software Engineering**  
 Python OOP • Pytest • SQLite • CLI Apps
 
 ---
 
-## ⭐ Featured Projects (Pinned)
+## 📌 Projects & Academic Work
 
-### 🚨 IoT Anomaly Detection System
-Production-style anomaly detection system for streaming sensor data.  
-- Isolation Forest with quantile-based thresholding  
-- REST API (`/predict`, `/metrics`, `/history`, `/health`)  
-- Fully Dockerized with real-time simulator & visualization  
+### 1️⃣ IoT Anomaly Detection System  
+**Isolation Forest + FastAPI/Flask + Docker**  
+
+Built a production-style anomaly detection service for streaming sensor data.  
+- Trained Isolation Forest with quantile-based thresholding  
+- REST API with prediction, metrics, history, and health endpoints  
+- Dockerized architecture with real-time simulator and visualization  
 
 🔗 https://github.com/NeginHz/anomaly_detection_project  
+**Tech:** Python, scikit-learn, Flask/FastAPI, Docker
 
 ---
 
-### ✉️ Spam Detection via Text Classification
-Comparative NLP study on **small vs large dataset training** and generalization.  
-- Strict leakage prevention & clean preprocessing  
-- TF-IDF + SVM / Naive Bayes  
-- Demonstrated strong generalization (F1-score up to 0.96)  
+### 2️⃣ Spam Detection via Text Classification  
+**NLP & Machine Learning**  
+
+Built two complete NLP pipelines (small vs large dataset) to study generalization.  
+- Preprocessing, strict leakage prevention, TF-IDF vectorization  
+- SVM & Naive Bayes achieving **F1 up to 0.96**  
 
 🔗 https://github.com/NeginHz/spam-classification-small-vs-large  
+**Tech:** Python, NLTK, scikit-learn
 
 ---
 
-### 🚗 Real-Time Vehicle Detection & Tracking
-Computer vision pipeline for vehicle detection, tracking, and speed estimation.  
-- YOLOv8 detection + DeepSORT tracking  
-- Pixel-to-meter calibration for speed estimation  
-- Improved ID consistency through parameter tuning  
+### 3️⃣ Resume Chatbot using Retrieval-Augmented Generation (RAG)
 
-🔗 https://github.com/NeginHz/Vehicle-Detection-Tracking-and-Speed-Estimation  
+- Retrieval-Augmented Generation pipeline  
+- Deployed on HuggingFace Spaces  
+
+🔗 https://huggingface.co/spaces/NeginHz/resume-chatbot  
+**Tech:** Python, RAG, OpenAI API, Qdrant, Gradio, HuggingFace Spaces
 
 ---
 
-## 📚 Additional Projects & Academic Work
+## ➕ Additional Projects
 
-### 🧠 Mental Health Insights in Tech (Unsupervised Learning)
-- Clustering analysis on 1,433 tech professionals  
-- Feature engineering, scaling, UMAP reduction  
+### 🧠 Mental Health Insights in Tech (Academic Project)
+Independent implementation involving unsupervised clustering and visualization.  
+- Feature engineering, encoding, scaling  
+- Dimensionality reduction with UMAP  
 - GMM clustering (Silhouette score: 0.84)  
-- Actionable insights for HR analytics  
 
 🔗 https://github.com/NeginHz/DLBDSMLUSL01  
+**Tech:** pandas, scikit-learn, UMAP
 
 ---
 
-### 🛒 Customer Segmentation (E-commerce Data)
-- RFM feature engineering from transactional data  
+### 🛒 Customer Segmentation using E-commerce Data
+- RFM feature engineering  
 - KMeans vs GMM comparison  
-- Business-oriented insights for retention & marketing  
+- Actionable business insights  
 
 🔗 https://github.com/NeginHz/online-retail-customer-segmentation  
 
 ---
 
-### ☁ ML Infrastructure Deployment (AWS + Terraform)
-- Infrastructure-as-Code using Terraform  
-- Secure S3 (private) + CloudFront CDN + OAI  
-- Reproducible cloud deployment  
+### 🚗 Real-Time Vehicle Detection & Tracking
+- YOLOv8 detection + DeepSORT tracking  
+- Speed estimation and ID stability improvements  
+
+🔗 https://github.com/NeginHz/Vehicle-Detection-Tracking-and-Speed-Estimation  
+
+---
+
+### ☁ ML Infrastructure Deployment on AWS
+- Infrastructure as Code using Terraform  
+- S3 (private) + CloudFront CDN  
 
 🔗 https://github.com/NeginHz/aws-static-website  
 
 ---
 
 ### ✔ Habit Tracker Application
-- Modular Python OOP architecture  
-- SQLite database + analytics (streaks)  
-- Full pytest test suite  
+- Python OOP + SQLite + Pytest  
+- Modular CLI architecture  
 
 🔗 https://github.com/NeginHz/oofpp_habits_project  
 
